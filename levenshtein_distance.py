@@ -8,7 +8,7 @@ def levenshtein_distance(string_1, string_2):
         for pos, x in enumerate(string_2):
             if x not in string_1[pos]:
                 string_1[pos] = x
-                operations = operations + 1
+                operations += 1
         return operations
 
     elif len(string_1) > len(string_2):
@@ -41,6 +41,3 @@ def levenshtein_distance(string_1, string_2):
                 string_1[pos] = x
                 operations += 1
         return operations
-
-
-
