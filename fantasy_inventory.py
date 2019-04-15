@@ -20,11 +20,11 @@ example_inventory = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow
 
 def display_inventory(inventory):
     total_items = 0
-    print('Inventory: ')
+    print('\nInventory: ')
     for key, value in inventory.items():
         print(str(value), key)
         total_items += value
-    print('Total number of items:')
+    print('\nTotal number of items:')
     return total_items
 
 
