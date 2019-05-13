@@ -12,6 +12,3 @@ def dice_rolling_simulator():
         return "Sad dice. :("
     else:
         return "I did not understand. Retry."
-
-
-print(dice_rolling_simulator())
